@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const app = express();
 const cors = require("cors");
 const stripe = require("stripe")(
-  "sk_test_51PKbFz057vnn9ydrL5SlZ3Hp8nJQVvHSm4XLgbdEJ3x2lcV4c1XM0sntBUmXPjmYgmjf2ghdn9xoTT5Hz4BJyDBL00PsTosXUy"
+  "stripe.secret-key"
 );
 
 app.use(express.json());
@@ -13,7 +13,8 @@ app.use(cors());
 // Connect to MongoDB
 mongoose
   .connect(
-    "mongodb+srv://shambhavigupta230:0aydYeyAF42hmW8n@cluster0.taa1cmv.mongodb.net/task?retryWrites=true&w=majority&appName=Cluster0",
+    "MongoDB URL
+    ",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
