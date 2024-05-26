@@ -75,7 +75,7 @@ const CartDetails = () => {
     }
 
     const stripe = await loadStripe(
-      "pk_test_51PKbFz057vnn9ydrNZ5tlDlqbYPNK9pkQfROcYW5Q5PohTQRln1Hdww7xWKXEXFlvKVW2IKa552gFBYLoTrUbvTa00UdbsWTI3"
+      "stripe.api"
     );
 
     const body = {
