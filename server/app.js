@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const app = express();
 const cors = require("cors");
 const stripe = require("stripe")(
-  "stripe.secret-key"
+  "sk_test_51PKbFz057vnn9ydrL5SlZ3Hp8nJQVvHSm4XLgbdEJ3x2lcV4c1XM0sntBUmXPjmYgmjf2ghdn9xoTT5Hz4BJyDBL00PsTosXUy"
 );
 
 app.use(express.json());
