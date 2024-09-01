@@ -13,7 +13,7 @@ app.use(cors());
 // Connect to MongoDB
 mongoose
   .connect(
-    "mongodb+srv://shambhavigupta230:0aydYeyAF42hmW8n@cluster0.taa1cmv.mongodb.net/task?retryWrites=true&w=majority&appName=Cluster0
+    "Mongo DB URL
     ",
     {
       useNewUrlParser: true,
